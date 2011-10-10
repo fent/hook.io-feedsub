@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-var Feed = require('../lib/feedhook').Feed;
+var Feed = require('../lib/feed').Feed;
 
 var hook = new Feed({
-  name: 'feed'
+  name: 'feedsub'
 });
 
 hook.start();

@@ -1,14 +1,14 @@
 {
-  "name": "hook.io-feed",
+  "name": "hook.io-feedsub",
   "description": "Emits hook.io events on new feed items.",
   "keywords": ["hook.io", "feed", "rss", "atom", "subscribe"],
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fent/hook.io-feed.git"
+    "url": "git://github.com/fent/hook.io-feedsub.git"
   },
   "author": "fent (https://github.com/fent)",
-  "main": "./lib/feedhook.js",
+  "main": "./lib/feed.js",
   "bin": {
     "hookio-feed": "./bin/feed"
   },
@@ -21,7 +21,7 @@
   },
   "licenses": [ {
     "type": "MIT",
-    "url" : "http://github.com/fent/hook.io-feed/raw/master/LICENSE"
+    "url" : "http://github.com/fent/hook.io-feedsub/raw/master/LICENSE"
   }]
 
 }

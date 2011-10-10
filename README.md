@@ -1,22 +1,22 @@
 Install
 ------------
 
-    npm -g install hook.io-feed
+    npm -g install hook.io-feedsub
 
 
 Usage
 ------------------
 
-    hookio-feed
+    hookio-feedsub
 
 Will "subscribe" to a web feed and emit any new items it reads from it. Take a look at the `config.json` file to see how to structure it. The events emitted will be in the form of
 
-`feed::*name*::item`
+`*::name::item`
 
-So if you are using the example `config.json` file and waiting for the latest news from CNN, programatically, you would want to do..
+Where `name` is the name of the feed. So if you are using the example `config.json` file and waiting for the latest news from CNN, programatically, you would want to do..
 
 ```javascript
-hook.on('feed::cnn:item', function(item) {
+hook.on('*::cnn:item', function(item) {
   console.log('New Story!:', item.title);
 }
 ```
