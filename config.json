@@ -1,0 +1,10 @@
+{
+  "feeds": [
+    {
+      "name": "cnn",
+      "url": "http://rss.cnn.com/rss/cnn_latest.rss",
+      "interval": 10,
+      "emitOnStart": false
+    }
+  ]
+}
