@@ -18,7 +18,7 @@ Where `name` is the name of the feed. So if you are using the example `config.js
 ```javascript
 hook.on('*::cnn:item', function(item) {
   console.log('New Story!:', item.title);
-}
+});
 ```
 
 It uses [feedsub](https://github.com/fent/node-feedsub) to read feeds. Take a look at its constructor API for all the options that can be passed to it.
