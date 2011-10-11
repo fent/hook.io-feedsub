@@ -2,7 +2,7 @@
   "name": "hook.io-feedsub",
   "description": "Emits hook.io events on new feed items.",
   "keywords": ["hook.io", "feed", "rss", "atom", "subscribe"],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/fent/hook.io-feedsub.git"
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "hook.io": "0.7.x",
-    "feedsub": ">=0.0.4"
+    "feedsub": ">=0.0.5"
   },
   "licenses": [ {
     "type": "MIT",
