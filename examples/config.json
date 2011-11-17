@@ -1,0 +1,14 @@
+{
+  "feeds": [
+    {
+      "name": "cnn",
+      "url": "http://rss.cnn.com/rss/cnn_latest.rss",
+    },
+    {
+      "name": "slashdot",
+      "url": "http://rss.slashdot.org/Slashdot/slashdot",
+      "interval": 10,
+      "forceInterval": true
+    }
+  ]
+}
