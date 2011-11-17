@@ -20,11 +20,11 @@ vows.describe('hook.io-feedsub')
 
         var hook = new Feed({
           name: 'feedsub',
-          emitOnStart: true,
           "feeds": [
             {
               "name": "cnn",
               "url": "http://rss.cnn.com/rss/cnn_latest.rss",
+              "emitOnStart": true
             }
           ]
         });
