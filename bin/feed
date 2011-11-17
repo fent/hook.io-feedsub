@@ -3,7 +3,8 @@
 var Feed = require('../lib/feed').Feed;
 
 var hook = new Feed({
-  name: 'feedsub'
+  name: 'feedsub',
+  debug: true
 });
 
 hook.start();

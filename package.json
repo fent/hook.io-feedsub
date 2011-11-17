@@ -9,6 +9,9 @@
   },
   "author": "fent (https://github.com/fent)",
   "main": "./lib/feed.js",
+  "scripts": {
+    "test": "vows test/test.js --spec"
+  },
   "bin": {
     "hookio-feed": "./bin/feed"
   },
@@ -18,6 +21,10 @@
   "dependencies": {
     "hook.io": "0.7.x",
     "feedsub": ">=0.0.5"
+  },
+  "devDependencies": {
+    "vows": "0.5.x",
+    "nock": "0.3.x"
   },
   "licenses": [ {
     "type": "MIT",
