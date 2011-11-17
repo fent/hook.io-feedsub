@@ -19,7 +19,7 @@
     "node": "*"
   },
   "dependencies": {
-    "hook.io": "0.7.x",
+    "hook.io": ">=0.8.0",
     "feedsub": ">=0.0.5"
   },
   "devDependencies": {
