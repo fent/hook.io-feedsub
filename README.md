@@ -51,3 +51,6 @@ The single test is written with [vows](http://vowsjs.org/)
 ```bash
 npm test
 ```
+
+# Licence
+MIT
