@@ -1,3 +1,4 @@
+# hook.io-feedsub [![Build Status](https://secure.travis-ci.org/fent/hook.io-feedsub.png)](http://travis-ci.org/fent/hook.io-feedsub)
 Will "subscribe" to a web RSS/Atom feed and emit any new items it reads from it. The events are in the form of
 
 `*::name::item`
@@ -30,24 +31,21 @@ hook.on('*::cnn:item', function(item) {
 It uses [feedsub](https://github.com/fent/node-feedsub) to read feeds. Take a look at its constructor API for all the options that can be passed to it.
 
 
-Usage
-------------------
+# Usage
 
 ```bash
 hookio-feedsub
 ```
 
 
-Install
-------------
+# Install
 
 ```bash
 npm -g install hook.io-feedsub
 ```
 
 
-Tests
----------
+# Tests
 The single test is written with [vows](http://vowsjs.org/)
 
 ```bash
