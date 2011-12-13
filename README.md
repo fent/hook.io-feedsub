@@ -27,6 +27,11 @@ Programatically, this is how you would listen for new feed items..
 hook.on('*::cnn:item', function(item) {
   console.log('New Story!:', item.title);
 });
+
+hook.on('*::item', function(feed) {
+  console.log('New Story from: ', feed.name);
+  console.log(feed.item);
+});
 ```
 
 It uses [feedsub](https://github.com/fent/node-feedsub) to read feeds. Take a look at its constructor API for all the options that can be passed to it.
