@@ -1,7 +1,7 @@
 {
   "name": "hook.io-feedsub",
   "description": "Emits hook.io events on new feed items.",
-  "keywords": ["hook.io", "feed", "rss", "atom", "subscribe"],
+  "keywords": ["hook.io", "feed", "rss", "atom", "json", "subscribe"],
   "version": "0.3.0",
   "repository": {
     "type": "git",
@@ -19,8 +19,8 @@
     "node": "*"
   },
   "dependencies": {
-    "hook.io": ">=0.8.0",
-    "feedsub": ">=0.0.5"
+    "hook.io": "0.8.x",
+    "feedsub": "0.1.x"
   },
   "devDependencies": {
     "vows": "0.5.x",
