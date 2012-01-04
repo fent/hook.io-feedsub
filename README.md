@@ -1,6 +1,6 @@
 # hook.io-feedsub [![Build Status](https://secure.travis-ci.org/fent/hook.io-feedsub.png)](http://travis-ci.org/fent/hook.io-feedsub)
 
-Will "subscribe" to a web RSS/Atom feed and emit any new items it reads from it. The events are in the form of
+Will "subscribe" to a web RSS/Atom/JSON feed and emit any new items it reads from it. The events are in the form of
 
 `*::name::item`
 
