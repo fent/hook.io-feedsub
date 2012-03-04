@@ -1,4 +1,5 @@
 var assert = require('assert')
+  , path = require('path')
   , vows = require('vows')
   , nock = require('nock')
   , Feed = require('../lib/feed').Feed
@@ -9,7 +10,7 @@ var assert = require('assert')
 // mock http request made by FeedSub module
 nock('http://rss.cnn.com')
   .get('/rss/cnn_latest.rss')
-  .replyWithFile(200, __dirname + '/cnn_latest.rss');
+  .replyWithFile(200, path.join(__dirname, 'cnn_latest.rss'));
 
 
 var expected = [
