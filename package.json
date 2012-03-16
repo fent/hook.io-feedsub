@@ -19,8 +19,8 @@
     "node": "*"
   },
   "dependencies": {
-    "hook.io": "0.8.x",
-    "feedsub": "0.1.x"
+    "hook.io": "0.8.6",
+    "feedsub": "0.2.x"
   },
   "devDependencies": {
     "vows": "0.5.x",
