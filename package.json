@@ -15,9 +15,6 @@
   "bin": {
     "hookio-feedsub": "./bin/feedsub"
   },
-  "engines": {
-    "node": "*"
-  },
   "dependencies": {
     "hook.io": "0.8.x",
     "feedsub": "0.2.x"
