@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "vows": "0.5.x",
-    "nock": "0.3.x"
+    "nock": "0.10.x"
   },
   "licenses": [ {
     "type": "MIT",
