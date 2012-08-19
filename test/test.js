@@ -44,15 +44,16 @@ vows.describe('hook.io-feedsub')
         var items = []
           , groups = {}
           , callback = this.callback
+          ;
 
 
         var FeedSubHook = new Feed({
           name: 'feedsub',
-          "feeds": [
+          'feeds': [
             {
-              "name": "cnn",
-              "url": "http://rss.cnn.com/rss/cnn_latest.rss",
-              "emitOnStart": true
+              'name': 'cnn',
+              'url': 'http://rss.cnn.com/rss/cnn_latest.rss',
+              'emitOnStart': true
             }
           ]
         });
